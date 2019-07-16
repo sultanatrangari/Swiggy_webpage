@@ -1,0 +1,122 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+
+.row
+{
+	max-width:1140px;
+	margin:0 auto;
+}
+
+body
+{
+	font-family:book antiqua;
+}
+
+.hero
+{
+	
+	position: absolute;
+	width:1140px;
+	top:45%;
+	left:45%;
+	transform: translate(-50%,-50%);
+}
+
+header
+{
+	
+	background-image:url("salad.jpg");
+	height:100vh;
+	background-position: center;
+	background-size:cover;	
+	opacity: 0.7;
+}
+
+h1
+{
+ 
+	color:black;
+	font-size: 50px;
+
+}
+
+.main-nav
+{
+	list-style:none;
+	float:right;
+	margin-top:60px;
+}
+
+.main-nav li
+{
+
+	display: inline-block;
+	margin-left:20px;
+}
+
+.main-nav li a
+{
+
+	color:black;
+	text-decoration:none;
+	font-size:100%;
+	font-width: bold;
+}
+
+.main-nav li a:hover
+{
+
+
+	color:green;
+	border-bottom:2px solid green;
+	transition:all 0.5s ease-in;
+	padding:15px 0;
+
+}
+
+.logo img
+{
+	height:150px;
+	float:left;
+	margin-top:30px;
+}
+
+.btn1
+{
+	border:1px solid green;
+        padding:10px 30px;
+	color: white;
+	border-radius:12px;
+	margin-right:20px;
+	background-color: green;
+
+}
+
+.btn2
+{
+	border:1px solid green;
+        padding:10px 30px;
+	color: white;
+	border-radius:12px;
+	background-color:green;
+	
+}
+.button
+{
+	margin-top:50px;
+	
+}
+
+1
+{
+
+	display:inline-block;
+	color:white;
+	text-align:center;
+	padding:18px 22px;
+	text-decoration:none;
+}
+	
